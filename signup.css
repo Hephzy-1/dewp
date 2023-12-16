@@ -1,0 +1,41 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 3rem;
+
+  background-image: url(./img/joshua-reddekopp-SyYmXSDnJ54-unsplash.jpg);
+  background-size: cover;
+}
+
+div {
+  display: flex;
+  gap: 12.5rem;
+}
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+  color: white;
+  text-transform: uppercase;
+  /* margin-bottom: 400px; */
+}
+
+button {
+  color: #fff;
+  position: absolute;
+  background-color: #f05f44;
+  border-color: #f05f44;
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  /* margin-top: 350px; */
+}
